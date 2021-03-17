@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "something-private"
+  description: "this is private"
+  annotations:
+    github.com/project-slug: backstage-testing-bip/something-private
+    backstage.io/techdocs-ref: url:https://github.com/backstage-testing-bip/something-private
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "backstage-testing-bip"
+  providesApis:
+    - something-private-api

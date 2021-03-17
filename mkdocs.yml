@@ -1,0 +1,10 @@
+site_name: "something-private"
+site_description: "this is private"
+site_addon: "very private"
+
+nav:
+  - Introduction: index.md
+  - Other: other.md
+
+plugins:
+  - techdocs-core
